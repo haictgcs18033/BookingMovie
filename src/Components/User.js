@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { deleteUserAdmin, handleInput, handleUpdateUser } from '../../../bookingmovie-project/src/redux/actions/QuanLiNguoiDungAction'
+import { deleteUserAdmin, handleInput, handleUpdateUser } from '../redux/actions/QuanLiNguoiDungAction'
 import { SUA_NGUOI_DUNG } from '../redux/const/ConstBookingMovie'
 
 export default function User({ users, loading}) {
